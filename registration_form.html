@@ -33,34 +33,41 @@
 				</label>
 				<label>
 					Password:
-					<input type="password" name="password" placeholder="Your password" required >
+					<input type="password" name="password" placeholder="Your password" pattern=".{5,10}" required title="Password must be between 5 and 10 Characters">
 				</label>
 			</div>
 
 			<div>
 				<label>
 					Birthday:
-					<select>
+					<select name ="month">
 						<option>Month</option>
 						<option>Jan</option>
 						<option>Feb</option>
 						<option>Mar</option>
 					</select>
 
-					<select>
+					<select name="day">
 						<option>Day</option>
 						<option>1</option>
 						<option>2</option>
 						<option>3</option>
 					</select>
 
-					<select>
+					<select name="year">
 						<option>Year</option>
 						<option>1999</option>
 						<option>2000</option>
 						<option>2001</option>
 					</select>
 				</label>
+			</div>
+
+			<div>
+				<label for="agreed">I agree to the terms and conditions:</label>
+				<input type="checkbox" name="agreed" id="agreed">
+
+
 			</div>
 			<input type="submit">
 		</form>
