@@ -60,25 +60,40 @@ div p {
 
 /*Make only inputs with type 'text' have a gray background*/
 
-text {
+input {
 	background-color: gray;
 }
 
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
 
+div p:nth-child(3) {
+	background-color: pink;
+}
+
+
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+div p:nth-child(2) {
+	border: 5px solid white;
+}
 
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+em {
+	color: white;
+	font-size: 20px;
+}
 
 
 
 /*BONUS CHALLENGES*/
 /*You may need to research some other selectors and properties*/
 
+
+
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
+
 
 
 /* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
