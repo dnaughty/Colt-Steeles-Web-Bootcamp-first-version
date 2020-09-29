@@ -10,6 +10,7 @@ body {
 /* Make the <h1> element #9b59b6*/
 h1 {
 	color: #9b59b6;
+	
 }
 
 
@@ -51,6 +52,7 @@ input {
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special {
 	border: 2px solid rgb(10,10,300);
+
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
@@ -60,8 +62,8 @@ div p {
 
 /*Make only inputs with type 'text' have a gray background*/
 
-input {
-	background-color: gray;
+input[type="text"] {
+	background: gray;
 }
 
 
@@ -80,7 +82,7 @@ div p:nth-child(2) {
 
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-em {
+div:nth-of-type(3) em {
 	color: white;
 	font-size: 20px;
 }
@@ -106,10 +108,22 @@ label {
 
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-
+#special:first-letter {
+	color: green;
+	font-size: 100px;
+}
 
 /*Make the <h1> element's color change to blue when hovered over */
 
+h1:hover	{
+	color:blue;
+}
+
+
 
 /*Make the <a> element's that have been visited gray */
+
+a:visited {
+	color: gray;
+}
 
