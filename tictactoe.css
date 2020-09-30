@@ -2,3 +2,28 @@ body {
 	background: green;
 	text-align: center;
 }
+
+
+/*.top {
+	border: 2px solid red;
+}*/
+
+td {
+	width: 100px;
+	height: 100px;
+	/*background: pink;*/
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table {
+	margin: auto;
+}
