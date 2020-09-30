@@ -1,3 +1,9 @@
-body {
-	background: purple;
+img {
+	width: 100px;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
 }
+
+p { 
+font-family: roboto; }
